@@ -22,8 +22,8 @@
 
 .navbar {
     display: flex;
-    position: fixed;
-    /* top: 0px; */
+    width: 100%;
+    position: fixed; 
 }
 
 .nav-list {
@@ -179,7 +179,8 @@
 /* footer */
 .footer {
     display: flex;
-    height: 55vh;
+    justify-content: space-between;
+    height: 30vh;
     background-color: #222222;
     color: white;
     font-size: 18px;
@@ -191,10 +192,11 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: right;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-left: 30px;
-    width: 10%;
-    height: 35vh;
+    width: 95px;
+    height: 25vh;
+    border-right: 1px solid rgb(190, 30, 45);
 }
 
 .footer-left p {
@@ -214,14 +216,34 @@
     justify-content: center;
     align-items: flex-end;
     width: 60%;
-    height: 55vh;
+    height: 30vh;
+    margin-left: 115px;
 }
 
 /* footer-right */
 .footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 20%;
-    height: 35vh;
-    background-color: blueviolet;
+    height: 15vh;
+    border-top: 1px solid rgb(190, 30, 45);
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    /* border: 1px solid #fff; */
+}
+
+.icon img {
+    filter: invert(0.9);
+}
+
+.icon img:hover {
+    cursor: pointer;
+    filter: invert(0.4);
 }
 
 /* utility class */
