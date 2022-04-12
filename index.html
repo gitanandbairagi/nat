@@ -14,17 +14,23 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar">
-        <ul class="nav-list">
+    <nav class="navbar h-nav-resp">
+        <ul class="nav-list v-class-resp">
             <div class="logo"><img src="img/navlogo.png" alt="logo"></div>
             <li><a href="#home">Home</a></li>
             <li><a href="#course">Course</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        <div class="rightnav">
+        <div class="rightnav v-class-resp">
             <input type="text" name="search" id="search">
             <button class="btn btn-sm">Search</button>
+            
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
     </nav>
 
@@ -154,6 +160,9 @@
             </div>
         </div>
     </footer>
+
+    <!-- JS: resp.js -->
+    <script src="js/resp.js"></script>
 </body>
 
 </html>
