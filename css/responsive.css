@@ -49,10 +49,20 @@
         max-width: 90%;
     }
 
+    .firsthalf {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .btn-big {
+        align-self: center;
+        width: 75%;
+    }
+
     .section-2 {
-        flex-direction: column-reverse;
-        justify-items: center;
-        height: 75vh;
+        justify-content: center;
+        height: 50vh;
     }
 
     .thumbnail {
@@ -60,8 +70,16 @@
         justify-content: center;
     }
 
-    .thumbnail img {
-        max-width: 85%;
+    .contact {
+        display: flex;
+        height: 75vh;
+        align-items: center;
+        padding: 0px;
+    }
+
+    /* contact input fields */
+    #first_name, #second_name, #email, #m-num, #btn-submit {
+        width: 52%;
     }
 }
 
@@ -80,9 +98,26 @@
         background-blend-mode: darken;
     }
 
+    .section-2 {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        height: 83vh;
+    }
+
+    .img-fluid {
+        width: 100px;
+    }
+
+    .paras {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 50vh;
+    }
+
     /* contact input fields */
     #first_name, #second_name, #email, #m-num, #btn-submit {
-        width: 55%;
+        width: 62%;
     }
 
     /* footer */
