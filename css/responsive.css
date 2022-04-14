@@ -113,13 +113,14 @@
     .section-2 {
         flex-direction: column-reverse;
         justify-content: space-evenly;
-        height: 83vh;
+        align-items: center;
+        height: 75vh;
         width: 100%;
         margin: 0px;
     }
 
     .img-fluid {
-        width: 250px;
+        width: 300px;
     }
 
     .paras {
@@ -127,6 +128,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         height: 50vh;
+        margin-top: -20px;
     }
 
     /* contact input fields */
