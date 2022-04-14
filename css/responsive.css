@@ -117,6 +117,7 @@
         height: 75vh;
         width: 100%;
         margin: 0px;
+        overflow: hidden;
     }
 
     .img-fluid {
