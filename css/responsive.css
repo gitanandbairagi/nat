@@ -84,6 +84,18 @@
 }
 
 @media only screen and (min-width: 100px) and (max-width: 900px) {
+    .firsthalf {
+        width: 85%;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+
+    .secondhalf img {
+        width: 320px;
+    }
+
     .contact {
         display: flex;
         align-items: center;
@@ -102,10 +114,12 @@
         flex-direction: column-reverse;
         justify-content: space-evenly;
         height: 83vh;
+        width: 100%;
+        margin: 0px;
     }
 
     .img-fluid {
-        width: 100px;
+        width: 250px;
     }
 
     .paras {
